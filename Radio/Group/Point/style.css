@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  overflow: auto;
+}
+
+.container > * {
+  margin: 5px 0 7px 0;
+}

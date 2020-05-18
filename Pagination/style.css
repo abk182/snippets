@@ -1,0 +1,77 @@
+.pagintaion-container {
+  font: 13px RubikLight;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  background: #f4f7fa;
+  border-radius: 2px;
+  border: 1px solid #d1dde7;
+}
+
+.current-records-range {
+  position: absolute;
+  left: 50px;
+  top: 18px;
+}
+
+.records-range-selector {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.records-range-selector > * {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.records-range-select-input select{
+  color: #000;
+}
+
+.page-control {
+  display: flex;
+  align-items: center;
+}
+
+.page-control > span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.page-num-input {
+  width: 40px;
+  height: 30px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: 1px solid #d1dde7;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: RubikLight;
+  color: black;
+}
+
+.btn {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 2px;
+}
+.to-first {
+  background: url("/img/ic_pagination_first.svg") center center no-repeat;
+}
+.to-prev {
+  background: url("/img/ic_pagination_prev.svg") center center no-repeat;
+}
+.to-next {
+  background: url("/img/ic_pagination_next.svg") center center no-repeat;
+}
+.to-last {
+  background: url("/img/ic_pagination_last.svg") center center no-repeat;
+}
